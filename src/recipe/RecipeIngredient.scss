@@ -1,0 +1,23 @@
+.recipe-ingredient {
+  width: 100%;
+
+  i {
+    display: none;
+  }
+
+  .recipe-ingredient-fields {
+    display: flex;
+
+    div {
+      margin: 0 5px;
+
+      &.standard-field {
+        display: inline;
+      }
+    }
+  }
+
+  .field {
+    max-width: 30px;
+  }
+}

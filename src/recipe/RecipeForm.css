@@ -1,0 +1,43 @@
+.recipe-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 50px 40px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  min-width: 300px;
+  max-width: 600px; }
+  .recipe-form .add-button {
+    font-size: 1.5em; }
+  .recipe-form .complex-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid lightgray; }
+    .recipe-form .complex-section .complex-section-fields {
+      display: flex;
+      flex-wrap: wrap; }
+    .recipe-form .complex-section .buttons {
+      display: inline;
+      margin: 0 5px; }
+  .recipe-form .field {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: inherit;
+    font-weight: 400;
+    line-height: 1.125;
+    margin-bottom: 1.25em; }
+    .recipe-form .field .input-field {
+      border: none;
+      border-bottom: solid grey 0.25em; }
+      .recipe-form .field .input-field:focus {
+        outline: none;
+        border-bottom: #311b92 solid 0.25em; }

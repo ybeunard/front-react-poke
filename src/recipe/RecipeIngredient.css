@@ -1,0 +1,12 @@
+.recipe-ingredient {
+  width: 100%; }
+  .recipe-ingredient i {
+    display: none; }
+  .recipe-ingredient .recipe-ingredient-fields {
+    display: flex; }
+    .recipe-ingredient .recipe-ingredient-fields div {
+      margin: 0 5px; }
+      .recipe-ingredient .recipe-ingredient-fields div.standard-field {
+        display: inline; }
+  .recipe-ingredient .field {
+    max-width: 30px; }

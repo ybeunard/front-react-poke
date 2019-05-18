@@ -4,12 +4,15 @@ html, body {
   padding: 0;
   margin: 0;
   background-color: lightgray;
-  font-family: Calibri, sans-serif; }
+  font-family: Calibri, sans-serif;
+}
 
 [hidden] {
-  display: none !important; }
+  display: none !important;
+}
 
 .page {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
